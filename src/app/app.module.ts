@@ -11,6 +11,7 @@ import { InputFormatDirective } from './directives/input-format.directive';
 import {SharedModule} from "./shared/shared.module";
 import {CartsModule} from "./carts/carts.module";
 import {ProductsModule} from "./products/products.module";
+import { TrainingComponent } from './components/training/training.component';
 
 
 // @ts-ignore
@@ -20,6 +21,7 @@ import {ProductsModule} from "./products/products.module";
     FirstComponentComponent,
     PanalComponent,
     InputFormatDirective,
+    TrainingComponent,
   ],
   imports: [
     BrowserModule,
